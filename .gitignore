@@ -1,0 +1,26 @@
+# Python virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# KiCad temporary, backup, lock & cache files
+*-backups/
+*.lck
+~*
+fp-info-cache
+sym-lib-table.lck
+fp-lib-table.lck
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+
+# Autorouter intermediate scratch files
+*.dsn
+*.ses
+freerouting.log
+
+# OS & editor artifacts
+.DS_Store
+*.swp
